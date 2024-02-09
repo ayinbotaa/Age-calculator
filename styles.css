@@ -69,6 +69,6 @@ input {
 /* media queries for smaller screens */
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 80%;
+    max-width: 70%;
   }
 }
