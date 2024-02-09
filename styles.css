@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap") * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to top, #e7f5ff, #4dabf7);
+  font-size: 65.2%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+
+  position: relative;
+}
+
+.container {
+  width: 30rem;
+  max-width: 30rem;
+  padding: 5rem 4rem;
+  font-size: 1rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("images/background-desktop.jpg");
+  background-size: cover;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input {
+  width: 10rem;
+  margin-bottom: 0.3rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  color: #ffff;
+  font-weight: bold;
+  background-color: #4dabf7;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #2e79b7;
+}
+
+.copyright {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+
+/* media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 80%;
+  }
+}
