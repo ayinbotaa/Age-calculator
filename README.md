@@ -1,4 +1,4 @@
-# Guess the number
+# Age calculator web app
 
 ## Overview
 
